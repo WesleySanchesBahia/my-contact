@@ -1,13 +1,13 @@
-const url = "https://api.github.com/users/wesleysanchesbahia"
-
 function getGitHub(){
-    axios.get(url)
-    .then(response => {
-        img.src = response.data.avatar_url
-    })
-    .catch(error => console.log(error));
-}
 
+    const url =  `https://api.github.com/users/wesleysanchesbahia`
+    
+        fetch(url).then(response => response.json()).then(data => {
+            img.src = data.avatar_url
+            
+        })
+    
+    }
 
 function clickPortfolio(){
     document.getElementById("portfolio").addEventListener("click", () =>{
