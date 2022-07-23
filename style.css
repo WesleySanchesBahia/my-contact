@@ -115,18 +115,6 @@ li:hover{
 
 }
 
-footer{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: 300;
-    animation-name: footerAnimation;
-    animation-duration: 5s;
-    color: #fff;
-    letter-spacing: 2px;
-}
 
 
 
@@ -158,16 +146,5 @@ footer{
 }
 
 
-@keyframes  footerAnimation{
-    
-
-    from{
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
 
 
