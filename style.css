@@ -72,7 +72,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #fff;
     animation-name: animationLinear;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -85,7 +85,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     text-decoration: none;
     font-weight: 500;
@@ -97,6 +97,7 @@ i{
 animation-name: footerAnimation;
 animation-duration: 2s;
  margin-left: 0.3rem;
+ color: #fff;
 }
 
 a:hover{
@@ -123,6 +124,8 @@ footer{
     font-weight: 300;
     animation-name: footerAnimation;
     animation-duration: 5s;
+    color: #fff;
+    letter-spacing: 2px;
 }
 
 
@@ -168,10 +171,3 @@ footer{
 }
 
 
-@media only screen and (max-width: 720px){
-
-    body{
-        background: linear-gradient(90deg, rgba(142,29,248,1) 0%, rgba(2,0,36,1) 82%);
-    }
-
-}
